@@ -15,7 +15,7 @@ function App() {
         </div>
       </header>
       <main className='main-container'>
-        <section className='main-section'>
+        <section className='main-section col-2'>
           <div className='title'>
             <h3>About me</h3>
             <div className='underline'>
@@ -35,7 +35,7 @@ function App() {
             </p>
           </article>
         </section>
-        <section className='main-section'>
+        <section className='main-section col-1'>
           <div className='title'>
             <h3>Links</h3>
             <div className='underline'>
@@ -74,7 +74,7 @@ function App() {
             </div>
           </article>
         </section>
-        <section className='main-section'>
+        <section className='main-section col-1'>
           <div className='title'>
             <h3>Education</h3>
             <div className='underline'>
@@ -102,7 +102,7 @@ function App() {
             </div>
           </article>
         </section>
-        <section className='main-section'>
+        <section className='main-section col-1'>
           <div className='title'>
             <h3>Personal skills</h3>
             <div className='underline'>
@@ -118,7 +118,7 @@ function App() {
             </div>
           </article>
         </section>
-        <section className='main-section'>
+        <section className='main-section col-1'>
           <div className='title'>
             <h3>Technical skills</h3>
             <div className='underline'>
@@ -135,7 +135,7 @@ function App() {
             </div>
           </article>
         </section>
-        <section className='main-section'>
+        <section className='main-section col-3'>
           <div className='title'>
             <h3>Work experience</h3>
             <div className='underline'>
