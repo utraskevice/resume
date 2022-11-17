@@ -1,0 +1,21 @@
+.links--icons {
+  vertical-align: middle;
+  width: 30px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  size: 16px;
+}
+
+.links a:hover {
+  color: #7abcac;
+}

@@ -1,0 +1,23 @@
+.experience-box--title {
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.experience-box li {
+  margin-top: 15px;
+  margin-left: 15px;
+  line-height: 2;
+  list-style-type: disc;
+}
+
+.experience-box div {
+  margin-top: 40px;
+  margin: auto;
+}
+
+.experience-box--right {
+  border-right: 2px solid #dcdcdc;
+  padding-right: 20px;
+}

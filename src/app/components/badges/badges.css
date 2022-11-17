@@ -1,0 +1,19 @@
+.badge {
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 11px;
+  padding: 2px 8px;
+  font-weight: 700;
+  max-width: max-content;
+}
+
+.badge--yellow {
+  background: #d8da79;
+}
+
+.badge--green {
+  background: #7abcac;
+}
+.badge--red {
+  background: #c29486;
+}

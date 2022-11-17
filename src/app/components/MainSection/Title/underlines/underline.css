@@ -1,0 +1,24 @@
+.underline {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.underline hr {
+  height: 4px;
+  background: #dcdcdc;
+  border: none;
+  top: -10px;
+}
+
+.underline--green {
+  position: absolute;
+  width: 72px;
+  height: 10px;
+  background: #7abcac;
+  top: -2px;
+}
+
+.underline--short {
+  max-width: 201px;
+  margin-left: 0;
+}

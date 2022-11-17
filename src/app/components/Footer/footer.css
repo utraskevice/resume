@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.footer-box {
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+}
+
+.footer-box h2 {
+  margin-bottom: 20px;
+  background-color: #000000;
+  color: white;
+  padding: 7px 0px;
+}
+
+.footer-box a {
+  display: block;
+  text-decoration: none;
+  margin: 5px;
+  color: #000000;
+}
+.footer-box a:hover {
+  color: #7abcac;
+}
