@@ -1,4 +1,4 @@
-import './experience.css';
+import './index.css';
 
 function ExperienceBlock({
   jobPosition,

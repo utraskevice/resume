@@ -1,21 +1,21 @@
-import './App.css';
+import './index.css';
 // Icons
-import linkedinLogo from './components/Links/images/linkedin.svg';
-import twitterLogo from './components/Links/images/twitter.svg';
-import gitHubLogo from './components/Links/images/gitHub.svg';
-import devLogo from './components/Links/images/dev.svg';
+import linkedinLogo from './components/images/linkedin.svg';
+import twitterLogo from './components/images/twitter.svg';
+import gitHubLogo from './components/images/gitHub.svg';
+import devLogo from './components/images/dev.svg';
 
 // imports
-import Header from './components/Header/header.js';
-import Badge from './components/Badge/badges';
-import Underline from './components/MainSection/Title/Underlines/underline.js';
-import MainSection from './components/MainSection/MainSection.js';
-import ExperienceBlock from './components/Experience/experience.js';
-import FlexBox from './components/MainSection/flexBox.js';
-import Education from './components/Education/education.js';
-import Footer from './components/Footer/footer.js';
-import FooterBox from './components/Footer/FooterBox.js';
-import Links from './components/Links/links.js';
+import Header from './components/Header';
+import Badge from './components/Badge';
+import Underline from './components/Underlines';
+import Section from './components/Section';
+import ExperienceBlock from './components/Experience';
+import FlexBox from './components/flexBox';
+import Education from './components/Education';
+import Footer from './components/Footer';
+import FooterBox from './components/FooterBox';
+import Links from './components/Links';
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
       </Header>
 
       <main className='main-container'>
-        <MainSection title={'About me'} column='col-2' underlineForm={'green'}>
+        <Section title={'About me'} column='col-2' underlineForm={'green'}>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -36,8 +36,8 @@ function App() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-        </MainSection>
-        <MainSection title={'Links'} column='col-1' underlineForm={'green'}>
+        </Section>
+        <Section title={'Links'} column='col-1' underlineForm={'green'}>
           <Links
             url='https://www.linkedin.com'
             iconSrc={linkedinLogo}
@@ -62,8 +62,8 @@ function App() {
           <Links url='https://www.youtube.com' iconSrc={devLogo} iconAlt='dev'>
             BLOG/blog-name
           </Links>
-        </MainSection>
-        <MainSection title={'Education'} column='col-1' underlineForm={'green'}>
+        </Section>
+        <Section title={'Education'} column='col-1' underlineForm={'green'}>
           <Education
             schoolName={'School name'}
             schoolYear={'2009-2013'}
@@ -75,31 +75,23 @@ function App() {
             schoolYear={'2009-2013'}
             degree={'Degree'}
           ></Education>
-        </MainSection>
-        <MainSection
-          title='Personal skills'
-          column='col-1'
-          underlineForm={'green'}
-        >
+        </Section>
+        <Section title='Personal skills' column='col-1' underlineForm={'green'}>
           <div className='skills-box'>
             <Badge collor='green'>Comunication</Badge>
             <Badge collor='green'>Recomendation</Badge>
             <Badge collor='red'>Something</Badge>
           </div>
-        </MainSection>
-        <MainSection
-          title='Tecnical skills'
-          column='col-1'
-          underlineForm={'green'}
-        >
+        </Section>
+        <Section title='Tecnical skills' column='col-1' underlineForm={'green'}>
           <div className='skills-box'>
             <Badge collor='green'>Html</Badge>
             <Badge collor='green'>Css/scss</Badge>
             <Badge collor='yellow'>Javascript</Badge>
             <Badge collor='yellow'>React.js</Badge>
           </div>
-        </MainSection>
-        <MainSection
+        </Section>
+        <Section
           title={'Work eperience'}
           column='col-3'
           underlineForm={'green'}
@@ -138,7 +130,7 @@ function App() {
               li2={'Lorem ipsum dolor sit.'}
             ></ExperienceBlock>
           </FlexBox>
-        </MainSection>
+        </Section>
       </main>
       <Footer>
         <FooterBox

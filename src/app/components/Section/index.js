@@ -1,8 +1,8 @@
-import './MainSection.css';
-import Title from './Title/title';
-import Underline from './Title/Underlines/underline.js';
+import './index.css';
+import Title from '../Title';
+import Underline from '../Underlines';
 
-function MainSection({ children, column, title, underlineForm, flex }) {
+function Section({ children, column, title, underlineForm, flex }) {
   let className = 'main-section';
 
   if (column) {
@@ -22,4 +22,4 @@ function MainSection({ children, column, title, underlineForm, flex }) {
   );
 }
 
-export default MainSection;
+export default Section;

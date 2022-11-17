@@ -1,4 +1,4 @@
-import './underline.css';
+import './index.css';
 
 function Underline({ underlineForm }) {
   let className = 'underline';

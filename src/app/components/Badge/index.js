@@ -1,4 +1,4 @@
-import './badges.css';
+import './index.css';
 
 function Badge({ children, collor }) {
   let className = 'badge';

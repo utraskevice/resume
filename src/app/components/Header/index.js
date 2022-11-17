@@ -1,5 +1,5 @@
-import './header.css';
-import LanguageBtn from './languageBtn';
+import './index.css';
+import LanguageBtn from '../LanguageBtn';
 
 function Header({ children }) {
   return (

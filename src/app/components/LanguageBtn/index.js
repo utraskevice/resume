@@ -1,4 +1,4 @@
-import './languageBtn.css';
+import './index.css';
 
 function LanguageBtn() {
   return (

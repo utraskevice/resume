@@ -1,4 +1,4 @@
-import './links.css';
+import './index.css';
 
 function Links({ children, iconSrc, iconAlt, url }) {
   return (

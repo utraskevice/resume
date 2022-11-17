@@ -1,4 +1,4 @@
-import './footer.css';
+import '../Footer/index.css';
 
 function FooterBox({ contact, contactLi1, contactLi2, url1, url2 }) {
   return (

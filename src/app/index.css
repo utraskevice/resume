@@ -7,15 +7,12 @@ body {
   max-width: 1006px;
 }
 
-/* Main layout and main sections*/
 .main-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   gap: 40px;
 }
-
-/* Links */
 
 @media (max-width: 1000px) {
   body {
@@ -59,17 +56,16 @@ body {
     display: block;
   }
 
-  .footer-info,
-  .experience-box {
+  .main-section--flex {
     flex-wrap: wrap;
   }
 
-  .right_border {
+  .experience-box--right {
     border-right: none;
     border-bottom: 2px solid #dcdcdc;
   }
 
-  .main-section {
+  .main-section--article {
     text-align: center;
   }
 
