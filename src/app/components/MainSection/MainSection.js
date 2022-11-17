@@ -1,6 +1,6 @@
 import './MainSection.css';
 import Title from './Title/title';
-import Underline from './Title/underlines/underline.js';
+import Underline from './Title/Underlines/underline.js';
 
 function MainSection({ children, column, title, underlineForm, flex }) {
   let className = 'main-section';

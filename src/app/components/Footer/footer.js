@@ -1,5 +1,5 @@
 import './footer.css';
-import Underline from '../MainSection/Title/underlines/underline.js';
+import Underline from '../MainSection/Title/Underlines/underline.js';
 import FlexBox from '../MainSection/flexBox.js';
 
 function Footer({ children }) {

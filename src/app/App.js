@@ -1,18 +1,18 @@
 import './App.css';
 // Icons
-import linkedinLogo from './components/images/linkedin.svg';
-import twitterLogo from './components/images/twitter.svg';
-import gitHubLogo from './components/images/gitHub.svg';
-import devLogo from './components/images/dev.svg';
+import linkedinLogo from './components/Links/images/linkedin.svg';
+import twitterLogo from './components/Links/images/twitter.svg';
+import gitHubLogo from './components/Links/images/gitHub.svg';
+import devLogo from './components/Links/images/dev.svg';
 
 // imports
 import Header from './components/Header/header.js';
-import Badge from './components/badges/badges';
-import Underline from './components/MainSection/Title/underlines/underline.js';
+import Badge from './components/Badge/badges';
+import Underline from './components/MainSection/Title/Underlines/underline.js';
 import MainSection from './components/MainSection/MainSection.js';
 import ExperienceBlock from './components/Experience/experience.js';
 import FlexBox from './components/MainSection/flexBox.js';
-import Education from './components/education/education.js';
+import Education from './components/Education/education.js';
 import Footer from './components/Footer/footer.js';
 import FooterBox from './components/Footer/FooterBox.js';
 import Links from './components/Links/links.js';
